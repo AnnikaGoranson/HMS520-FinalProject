@@ -18,3 +18,7 @@ differentiation by state in these values. We hope to produce a map of chemical r
 * Chemical names: Chemical names reported for each incident are reported with potentially non-standardized names (e.g., "lead" and "lead compound" are different, as are "zinc (fume or dust)" and "zinc compound"). There are also variations on codes for these names that may need to be matched to another database.
 * Mapping states in R: We will implement the usmap library and the plot_usmap function in the ggplot2 library (https://cran.r-project.org/web/packages/usmap/vignettes/mapping.html).
 * Time trends: The incidents in the data set are only reported by year, so we will not be able to determine trend times at a more granular level than year.
+
+### Presentation
+Please see the below link for our presentation of our US TRI analysis:
+https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeoGuk/edit#slide=id.p
