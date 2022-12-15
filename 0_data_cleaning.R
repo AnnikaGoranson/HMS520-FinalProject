@@ -27,7 +27,7 @@ cancer_mort20 <- read.csv("cancer_mortality_2020.csv", header = TRUE)
 
 ## clean data ---------------------------------------------------------------
 
-# create function to clean data sets 
+# create function to clean the multiple tri data sets 
 # provide: TRI data set from EPA website, unedited
 clean_tri <- function(tri) {
   
