@@ -9,6 +9,8 @@ library(ggplot2)
 library(dplyr)
 library(data.table)
 library(usmap)
+library(tidyverse)
+library(urbnmapr)
 
 
 ## loading datasets -----------------------------------------------------------
