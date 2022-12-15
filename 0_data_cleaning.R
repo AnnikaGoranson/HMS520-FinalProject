@@ -86,3 +86,4 @@ WA_counties<-counties %>% filter(state_name=="Washington") %>%
   mutate_if(is.character, str_to_upper) %>% mutate(county_name = str_replace(county_name, "\\s", "|")) %>% 
   separate(county_name, into = c("county", "rest"), sep = "\\|")
 
+ 
