@@ -31,14 +31,14 @@ cancer_mort20 <- read.csv("cancer_mortality_2020.csv", header = TRUE)
 # provide: TRI data set from EPA website, unedited
 clean_tri <- function(tri) {
   
-  # remove unnecessary columns
+  # remove unnecessary columns (keeping others for potential future analyses)
         tri <- tri[,-c(2:3, 10:16, 18:19, 21:33, 35:38, 46)]
         
         # remove NAs
         tri[,c(88)][is.na(tri[,c(88)])] <- 0
         tri[is.na(tri)] <- "Not specified"
         
-        # rename columns - using column indices
+        # rename columns currently of use - using column indices
         tri <- rename(tri, c("year" = 1, 
                              "facility.name" = 2, 
                              "street.address"= 3, 
