@@ -3,6 +3,7 @@
 ## Authors: Annika Goranson, Caroline Kasman, Jessica Klusty
 ## Updated: December 11, 2022
 
+# devtools::install_github("UrbanInstitute/urbnmapr") #if needed to install
 
 # load packages
 library(ggplot2)
@@ -10,8 +11,7 @@ library(dplyr)
 library(data.table)
 library(usmap)
 library(tidyverse)
-library(urbnmapr)
-
+library(urbnmapr) # pulling counties GIS dataset from urbanmapr -- https://urban-institute.medium.com/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2
 
 ## loading datasets -----------------------------------------------------------
 
@@ -79,3 +79,10 @@ tri87 <- clean_tri(tri87)
 ## pull just 2020 data from cancer mortality data
 cancer_mort20 <- rename_with(cancer_mort20, tolower)
 cancer_mort20 <- filter(cancer_mort20, year == 2020)
+
+## cleaning counties GIS dataset (from urbanmapr package)
+# filtering to WA level, changing county name format to match tri dataset (all uppercase, remove "county" after county name)
+WA_counties<-counties %>% filter(state_name=="Washington") %>%
+  mutate_if(is.character, str_to_upper) %>% mutate(county_name = str_replace(county_name, "\\s", "|")) %>% 
+  separate(county_name, into = c("county", "rest"), sep = "\\|")
+
