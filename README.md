@@ -20,5 +20,5 @@ differentiation by state in these values. We hope to produce a map of chemical r
 * Time trends: The incidents in the data set are only reported by year, so we will not be able to determine trend times at a more granular level than year.
 
 ### Presentation
-Please see the below link for our presentation of our US TRI analysis:
+Please see the below link for our presentation of our U.S. TRI analysis:
 https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeoGuk/edit#slide=id.p
