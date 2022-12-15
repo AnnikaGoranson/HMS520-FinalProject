@@ -11,7 +11,7 @@ library(data.table)
 library(usmap)
 
 
-## load data sets -----------------------------------------------------------
+## loading datasets -----------------------------------------------------------
 
 # overall source site for TRI (Toxic Release Inventory) data - each dataset is for one year
 # https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present
@@ -25,7 +25,7 @@ tri87 <- read.csv("tri1987.csv", header = TRUE)
 cancer_mort20 <- read.csv("cancer_mortality_2020.csv", header = TRUE)
 
 
-## clean data ---------------------------------------------------------------
+## cleaning datasets ---------------------------------------------------------------
 
 # create function to clean the multiple tri data sets 
 # provide: TRI data set from EPA website, unedited
@@ -67,13 +67,12 @@ clean_tri <- function(tri) {
         return(tri)
 }
 
-# clean data
+# cleaning tri datasets
 tri21 <- clean_tri(tri21)        
 tri87 <- clean_tri(tri87)
 
-# using ` to be able to reference variable name starting with number
+# using ` to be able to reference variable name starting with number for Annika's data visualizations
 `2021toxinsdata` <- tri21
-
 
 ## pull just 2020 data from cancer mortality data
 cancer_mort20 <- rename_with(cancer_mort20, tolower)
