@@ -16,7 +16,8 @@ differentiation by state in these values. We hope to produce a map of chemical r
 
 * Managing data: The data has 70 different types of toxins, and most incidents only involve 1-5. We will need to address the best way to aggregate the data for the analysis we want to do. 
 * Chemical names: Chemical names reported for each incident are reported with potentially non-standardized names (e.g., "lead" and "lead compound" are different, as are "zinc (fume or dust)" and "zinc compound"). There are also variations on codes for these names that may need to be matched to another database.
-* Mapping states in R: We will implement the usmap library and the plot_usmap function in the ggplot2 library (https://cran.r-project.org/web/packages/usmap/vignettes/mapping.html). We will also use the urbanmapr library to pull county GIS data (https://urban-institute.medium.com/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2).
+* Mapping states in R: We will implement the usmap library and the plot_usmap function in the ggplot2 library (https://cran.r-project.org/web/packages/usmap/vignettes/mapping.html). 
+* Mapping counties in R: We will use the urbanmapr library to pull county GIS data to then map with the ggplot2 library(https://github.com/UrbanInstitute/urbnmapr). Reference on how it to use it:(https://urban-institute.medium.com/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2).
 * Time trends: The incidents in the data set are only reported by year, so we will not be able to determine trend times at a more granular level than year.
 
 ### Presentation
