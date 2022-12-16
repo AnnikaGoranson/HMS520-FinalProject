@@ -1,8 +1,9 @@
-library("data.table")
-library("dplyr")
-library("ggpubr")
-library("ggplot2")
+## HMS 520 Final Project, Autumn 2022
+## EPA Toxics Release Inventory data
+## Authors: Annika Goranson, Caroline Kasman, Jessica Klusty
+## Updated: December 11, 2022
 
+# dataframe created by Annika for her analysis specifically
 View(`2021toxinsdata`)
 
 # Data Cleaning 
