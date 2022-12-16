@@ -24,7 +24,7 @@ differentiation by state in these values. We hope to produce a map of chemical r
 ### Presentation
 Please see the below link for our presentation of our U.S. TRI analysis:
 https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeoGuk/edit#slide=id.p
-* NOTE: Some of Annika's visualizations have been updated since the presetnation, which is reflected in the 02_data_analysis_toxins.R script.
+* Note: Some of Annika's visualizations have been updated since the presetnation, which is reflected in the 02_data_analysis_toxins.R script.
 
 ### Code Guide
 #### Main Code
