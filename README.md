@@ -25,5 +25,9 @@ differentiation by state in these values. We hope to produce a map of chemical r
 Please see the below link for our presentation of our U.S. TRI analysis:
 https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeoGuk/edit#slide=id.p
 
-### Problem-Solving
-To see code where we tried to problem-solve and refactor our code but unfortunately ran into some road blocks, please look at 04_Bar_and_Scatter_Attempts.R and 05_Refactor_Viz_Attempts.R in our code library. We have documented this code in case we would like to refer to it in the future to find a solution. 
+### Code Guide
+
+
+To see code where we tried to problem-solve and refactor our code but unfortunately ran into some road blocks, please look at to following scripts. We have documented this code for your reference to see our effort and in case we would like to refer to it in the future to find a solution:
+* 04_bar_and_scatter_attempts.R: By Annika, attempts at functions that would plot the data in both scatter and box plots, with customizable themes, and the data would be displayed for each state in descending order. The scales were not applying to the visualizations despite multiple attempts.
+* 05_refactor_viz_attempts.R in our code library: By Caroline, attempts at refactoring functions to create visualizations that input in a column name as a variable, which was not working despite multiple attempts.
