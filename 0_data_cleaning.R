@@ -11,6 +11,8 @@ library(dplyr)
 library(data.table)
 library(usmap)
 library(tidyverse)
+library(ggpubr)
+library(scales)
 library(urbnmapr) # pulling counties GIS dataset from urbanmapr -- https://urban-institute.medium.com/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2
 
 ## loading datasets -----------------------------------------------------------
