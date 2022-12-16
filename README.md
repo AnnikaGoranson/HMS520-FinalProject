@@ -1,6 +1,6 @@
 # HMS 520 Final Project, Autumn 2022
 ### Authors: Caroline, Jessica, and Annika
-
+ 
 Link to main data set: https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present
 
 ### Project type
