@@ -3,6 +3,7 @@
 ## Authors: Annika Goranson, Caroline Kasman, Jessica Klusty
 ## Updated: December 15, 2022
 
+# Analysis 
 ggplot(`2021toxinsdata`, aes(x = state, y = production.ratio)) +
   geom_bar(stat = "identity", fill = "dark green") +
   xlab("State") +
