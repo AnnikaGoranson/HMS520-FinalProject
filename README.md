@@ -24,3 +24,6 @@ differentiation by state in these values. We hope to produce a map of chemical r
 ### Presentation
 Please see the below link for our presentation of our U.S. TRI analysis:
 https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeoGuk/edit#slide=id.p
+
+### Problem-Solving
+To see code where we tried to problem-solve and refactor our code but unfortunately ran into some road blocks, please look at 04...R and 05...R in our code library. We have documented this code in case we would like to refer to it in the future to find a solution. 
