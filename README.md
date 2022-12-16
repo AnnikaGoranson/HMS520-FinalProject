@@ -27,14 +27,14 @@ https://docs.google.com/presentation/d/1oOjmbojh_AoIYqbR6wfgBuyNc26gADULE-wIaQeo
 NOTE: Some of Annika's visualizations have been updated since the presetnation, which is reflected in the 02_data_analysis_toxins.R script.
 
 ### Code Guide
-## Main Code
+#### Main Code
 To see our main code, please look at the following scripts:
 * 0_data_cleaning.R : By all of us, loads all necessary packages across all of the scripts and perform initial data cleaning of our main datasets and supplementary datasets.
 * 01_data_analysis_mapscancer.R: By Jessica, creates U.S. map of incidents, tests for differences over time, and between carcinogenic incidents and cancer rates.
 * 02_data_analysis_toxins.R: By Annika, creates bar charts and scatterplots of toxins.
 * 03_data_analysis_chemindustry.R: By Caroline, creates visualizations of chemicals and industries as bar charts and county-level maps in WA state.
 
-## Supplementary Code
+#### Supplementary Code
 To see our additional code where we tried to problem-solve and refactor our code but unfortunately ran into some road blocks, please look at to following scripts. We have documented this code for your reference to see our effort and in case we would like to refer to it in the future to find a solution:
 * 04_bar_and_scatter_attempts.R: By Annika, attempts at functions that would plot the data in both scatter and box plots, with customizable themes, and the data would be displayed for each state in descending order. The scales were not applying to the visualizations despite multiple attempts.
 * 05_refactor_viz_attempts.R: By Caroline, attempts at refactoring functions to create visualizations that input in a column name as a variable, which was not working despite multiple attempts.
